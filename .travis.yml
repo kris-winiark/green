@@ -1,5 +1,4 @@
-language: python3.5
-dist: trusty
+language: python
 sudo: false
 
 matrix:
