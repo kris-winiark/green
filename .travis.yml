@@ -1,6 +1,11 @@
 language: python
 dist: trusty
 sudo: false
+
+matrix:
+  include:
+    - python: 3.5
+
 install:
   - "pip install ."
   - "pip install virtualenv"
